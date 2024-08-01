@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        .class{
+            margin-left: 30%;
+            width: 40%;
+            background-color: rgb(245, 238, 240);
+
+        }
+        .innerdiv{
+            margin-left: 58px;
+        }
+        .btn{
+            width: 300px;
+        }
+        .sign{
+            width: 300px;
+            height: 30px;
+            background-color: rgb(79, 193, 79);
+            border: none;
+            margin-top: 20px;
+            color: white;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+        }
+        .circle {
+            width: 25px;
+            height: 25px;
+            border-radius: 50%; 
+            border: 2px solid  rgb(79, 193, 79); 
+            background-color: rgb(79, 193, 79) ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="class">
+        <div class="innerdiv">
+        <h1 style="margin-left: 90px;"><br>Sign Up</h1>
+        <div class="circle">1
+        </div><h2>Your Basic Info</h2>
+        <h3>Name</h3><br>
+        <input type="text" class="btn" placeholder="Enter your Name ">
+        <h3>Email</h3>
+        <input type="email" class="btn" placeholder="Enter your Email"> 
+        <h3>Password</h3>
+        <input type="password" class="btn" placeholder="Enter your password"> 
+        <h3>Age</h3>
+        <input type="radio" id="under13" name="age" value="under13">
+        <label for="under13">Under 13</label><br>
+        <input type="radio"   id="over13" name="age" value="over13">
+        <label for="over13">13 and older</label><br><br>
+       
+        <div class="circle">2 <br>
+        </div><h2>Your Profile</h2>
+        <h3>Biography :</h3>
+        <input type="text" class="btn" name="" id="">
+        <h3>Job Rule</h3>
+        <input type="text" class="btn" placeholder="Bussiness Owner">
+        <h2>Interest</h2>
+        <input type="checkbox"  id="development" name="interest" value="Development">
+        <label for="development">Development</label>
+        <input type="checkbox" id="design" name="interest" value="Design">
+        <label for="design">Design</label>
+        <input type="checkbox" id="business" name="interest" value="Business">
+        <label for="business">Business</label>
+        <button class="sign">Sign up</button>
+    </div>
+
+    </div>
+</body>
+</html>
